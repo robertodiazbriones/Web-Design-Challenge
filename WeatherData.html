@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Homework</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+  <nav class="navbar navbar-default my-navbar-padding">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+          </button>
+        <a class="navbar-brand my-nav-brand" href="index.html">Latitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="maxTemp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="windSpeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="col-sm-11 main-box">
+        <h2 class="my-h2">Summary: Latitude vs. X</h2>
+        <hr>
+        <img src="Images/max_temp.png" height=200px alt="Temps at the Equator" class="pull-left">
+        <p>The purpose of this project was to analize how weather changes as you get closer to the equator. Toaccomplish this analysis, we first pulled data from the OpenWeatherMap API to aassemble a dataset on over 500 cities.</p>
+        <p>After assembling the dataset, we used Matplolib to plot various aspects of the weather vs. latitud. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.This site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>
+        </div>
+      <div class="col-sm-1"></div>
+      </div>
+      <div class="col-sm-3">
+        <div class="col-sm-12 image-box">
+          <h2 class="my-h2">Visualizations</h2>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="maxTemp.html"><img class="img-responsive" src="Images/max_temp.png" alt="Temps at the Equator"></a>
+            </div>
+            <div class="col-sm-6">
+              <a href="humidity.html"><img class="img-responsive" src="Images/humidity.png" alt="Humidity at the Equator"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="cloudiness.html"><img class="img-responsive" src="Images/cloudiness.png" alt="Cloudiness at the Equator"></a>
+            </div>
+            <div class="col-sm-6">
+              <a href="windSpeed.html"><img class="img-responsive" src="Images/wind_speed.png" alt="Wind Speed at the Equator"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
