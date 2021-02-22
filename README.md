@@ -4,7 +4,7 @@ Web Design Challenge homework corresponds to the 11th unit of the **Data Analisi
 
 The website must consist of 7 pages total, including:  
 -Landing page.  
--Visualization pages (Max Temp:sun:, Wind Speed:cyclone:, Humidity:umbrella:, Cloudiness:partly_sunny:).  
+-Visualization pages (Max Temp:sunny::sweat:, Wind Speed:cyclone:, Humidity:umbrella:, Cloudiness:partly_sunny:).  
 -Comparisons page.  
 -Data page.  
 
